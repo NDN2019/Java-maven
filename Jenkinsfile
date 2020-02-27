@@ -5,7 +5,7 @@ pipeline{
         stage('build'){
 			
 			steps{
-				bat 'mvn -B clean package'
+				bat 'mvn -B DiskTests clean package'
 			 }
         }
     }
